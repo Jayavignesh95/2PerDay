@@ -14,15 +14,15 @@ public class SumofDigits {
 	  {
 	  	ch =str.charAt(i) ;
 			if(Character.isDigit(str.charAt(i))) 
-				sum += Character.getNumericValue(ch);
+				sum += ch -'0';
 		}
 		return sum;
 	}
 public static void main(String[] args) throws IOException {
-	System.out.println("Enter the string ");
-   BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
-   String input = rd.readLine();
-	System.out.println("Sum of digits is "+SumofDigits.sumDigits(input));  
+//	System.out.println("Enter the string ");
+//   BufferedReader rd = new BufferedReader(new InputStreamReader(System.in));
+//   String input = rd.readLine();
+	System.out.println("Sum of digits is "+SumofDigits.sumDigits("H311o"));  
 	
 			
 	

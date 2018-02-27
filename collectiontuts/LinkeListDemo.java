@@ -8,6 +8,7 @@ import java.util.List;
 public class LinkeListDemo {
 public static void main(String[] args) {
 	LinkedList<String> lst=new LinkedList();
+	LinkedList<Integer> lst1=new LinkedList();
 	String[] ar=new String[4];	lst.add("A");
 	lst.add("B");
 	lst.add("C");
