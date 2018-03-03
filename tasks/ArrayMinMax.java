@@ -5,8 +5,10 @@ public class ArrayMinMax {
 	public static int getMaxElement(int[] arr)
 	{ 
 		int max = arr[0]; 
-		for(int i=1;i < arr.length;i++){ 
-			if(arr[i] > max){ 
+		for(int i=1;i < arr.length;i++)
+		{ 
+			if(arr[i] > max)
+			{ 
 				max = arr[i]; 
 			} 
 		} 
@@ -16,8 +18,10 @@ public class ArrayMinMax {
 	public static int getMinElement(int[] arr)
 	{ 
 		int min = arr[0]; 
-		for(int i=1;i<arr.length;i++){ 
-			if(arr[i] < min){ 
+		for(int i=1;i<arr.length;i++)
+		{ 
+			if(arr[i] < min)
+			{ 
 				min = arr[i]; 
 			} 
 		} 
